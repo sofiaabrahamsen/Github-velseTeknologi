@@ -8,4 +8,10 @@ public class MyController {
         return "index";
     }
 
+
+    @GetMapping("/mathias")
+    public String mathias(){
+        return "matt";
+    }
+
 }
