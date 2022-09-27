@@ -8,7 +8,7 @@ public class MyController {
         return "index";
     }
 
-    @GetMapping
+    @GetMapping("/cam")
     public String cam(){
         return "camellaHTML";
     }
