@@ -25,4 +25,10 @@ public class MyController {
         return "Barkistan";
     }
 
-}
+    @GetMapping("/lasse")
+    public String lasse() {
+        return "Lasse";
+    }
+    }
+
+
