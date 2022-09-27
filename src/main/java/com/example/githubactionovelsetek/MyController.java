@@ -8,6 +8,13 @@ public class MyController {
         return "index";
     }
 
+    @GetMapping
+    public String cam(){
+        return "camellaHTML";
+    }
+
+}
+
 
     @GetMapping("/mathias")
     public String mathias(){
