@@ -13,8 +13,6 @@ public class MyController {
         return "camellaHTML";
     }
 
-}
-
 
     @GetMapping("/mathias")
     public String mathias(){
